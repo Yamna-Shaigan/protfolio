@@ -1,0 +1,90 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(27, 124, 214);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    
+}
+
+h1 {
+    margin-top: 0;
+}
+
+#home {
+    background-image: linear-gradient(to bottom, gray,rgb(50, 139, 223));
+}
+
+ #about, #skills, #experience {
+    background-color:rgb(129, 182, 231);
+    
+}
+
+#contact {
+    background-color:gray;
+    color: black;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 2px;
+    border-color: rgb(0, 119, 255);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: rgb(21, 142, 223);
+    color: #fff;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
